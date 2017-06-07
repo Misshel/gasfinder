@@ -23,10 +23,12 @@ header span{
 }
 
 .row{
-  background-color: #F44336;
   padding: 1rem;
 }
 
+div.row.search{
+  background-color: #F44336;
+}
 
 .input-search{
   background-color: #ffffff !important;
@@ -46,11 +48,46 @@ header span{
   padding: 0 2rem;
 }
 
-.map-icon{
-  position: relative !important;
+.btn-map{
+  color: #7f8a8a;
+  position: relative;
   top: 1rem;
+  font-size: 2rem;
 }
 
 .stations{
   background-color: #ffffff !important;
+}
+
+#map{
+  position: relative;
+  overflow: hidden;
+  height: 50vh;
+}
+
+.row-map{
+  padding: 0;
+}
+
+hr{
+  margin-bottom: 1rem;
+}
+
+.product{
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  padding: 1rem !important;
+  height: 3.5rem;
+  border: 1px;
+  background-color: #acb9b9;
+  border-radius: 10px;
+}
+
+.btn-search{
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  font-size: 2rem;
+  color: #ffffff;
 }
