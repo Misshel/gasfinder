@@ -37,11 +37,12 @@ const stationSearch = (update) => {
   container.append(row);
   container.append(rowContainer);
 
-  search.on('keyup',(e) => {
-    const find = filterByDistrict(state.stations,search.val());
-    reRender (rowContainer, find);
-    return rowContainer;
-  });
+
+    search.on('keyup',(e) => {
+      const find = filterByDistrict(state.stations,search.val());
+      reRender (rowContainer, find);
+      return rowContainer;
+    });
 
   return container;
 }
