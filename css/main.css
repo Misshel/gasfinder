@@ -17,3 +17,40 @@ header {
 header .fa-chevron-left {
   margin-right: 16px;
 }
+
+header span{
+  font-size: 2rem;
+}
+
+.row{
+  background-color: #F44336;
+  padding: 1rem;
+}
+
+
+.input-search{
+  background-color: #ffffff !important;
+  margin: 0 !important;
+  padding: 6px 6px 6px 4rem !important;
+}
+
+.row span {
+  font-size: 3rem;
+  position: absolute;
+  left: 1.2rem;
+  color: #827c74;
+}
+
+.item-station{
+  margin-bottom: 10px;
+  padding: 0 2rem;
+}
+
+.map-icon{
+  position: relative !important;
+  top: 1rem;
+}
+
+.stations{
+  background-color: #ffffff !important;
+}
