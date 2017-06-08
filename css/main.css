@@ -91,3 +91,11 @@ hr{
   font-size: 2rem;
   color: #ffffff;
 }
+
+span.distance{
+  display: flex;
+  bottom: 2rem;
+  font-size: 1rem;
+  right: 5rem;
+  justify-content: flex-end;
+}
